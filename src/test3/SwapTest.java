@@ -12,4 +12,3 @@ public class SwapTest {
 		System.out.println(num1 + "," + num2);
 	}
 }
-
