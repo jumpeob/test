@@ -12,9 +12,11 @@ public class ArrayTest6 {
 		String[] tmpMenus = menus;
 		
 		menus = new String[4];
-		for(int a=0 ;a<menus.length ;a++ ) {
-			menus[a-1]=tmpMenus[a];
+
+		for(int a=0 ;a<tmpMenus.length ;a++ ) {
+			menus[a]=tmpMenus[a];
 		}
+		//tmpMenus.length 를 쓴 이유는 menus의 길이가 다르기때문에
 		
 		
 		menus[3] = "맥주";
