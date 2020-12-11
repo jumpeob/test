@@ -14,5 +14,6 @@ public class StringTest {
 //		System.out.println(str);
 		str = "  하이 ";
 		System.out.println(str.trim()); //앞뒤 공백제거
+		
 	}
 }
